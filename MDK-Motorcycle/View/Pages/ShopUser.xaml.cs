@@ -32,9 +32,9 @@ namespace MDK_Motorcycle.View.Pages
                 TbShop.Text = Convert.ToString(shop);
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+       private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
-
+            Util.UtilFrame?.Navigate(new MainPage());
         }
     }
 }
