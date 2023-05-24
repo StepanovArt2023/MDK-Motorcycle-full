@@ -12,7 +12,20 @@
         Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="TbShop"/>
-        
+        <StackPanel HorizontalAlignment="Left"
+                                VerticalAlignment="Center">
+                        <Button Background="DarkRed"
+                                Foreground="White"
+                                x:Name="BtnBack"
+                                Click="BtnBack_Click"
+                                Width="75" Height="50"
+                                BorderBrush="Gray"
+                                BorderThickness="1"
+                                materialDesign:ButtonAssist.CornerRadius="7.5">
+                            <materialDesign:PackIcon Kind="ExitToApp"
+                                                     Width="40" 
+                                                     Height="40" RenderTransformOrigin="0.5,0.5"/>
+                    </StackPanel>
         
     </Grid>
 </Window>
