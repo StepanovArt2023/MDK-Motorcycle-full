@@ -160,7 +160,11 @@ namespace MDK_Motorcycle.View.Pages
         private Shop _shop = new Shop();
         private void TbnBuy_Click(object sender, RoutedEventArgs e)
         {
-                try
+                MessageBox.Show("Данная функция временно недоступна",
+                                "Системное сообщение",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Error);
+                /*try
                 {          
                     _shop.Login = class1.Data;
                     _shop.Product = _product.ProductName; 
@@ -177,7 +181,7 @@ namespace MDK_Motorcycle.View.Pages
                                 "Системное сообщение",
                                 MessageBoxButton.OK,
                                 MessageBoxImage.Error);
-                }
+                }*/
         }
 
         private void BtnBack1_Click(object sender, RoutedEventArgs e)
